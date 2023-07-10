@@ -172,3 +172,57 @@ hr {
   line-height: 48px;
   max-width: 1120px;
 }
+
+.benfits-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 64px;
+  padding: 100px 160px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px;
+  text-align: center;
+}
+
+.card-title {
+  color: #333;
+  text-align: center;
+
+  /* paragraph-lg/default */
+  font-size: 24px;
+  font-weight: 400;
+  max-height: 70px;
+  padding-bottom: 30px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #3f66fb;
+
+  /* label-sm/default */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card {
+  padding: 40px;
+  width: 250px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid var(--dark-neutral-600, #e5e5e5);
+  background: var(--base-white, #fff);
+  text-align: center;
+}
+
+.benfits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
